@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  gender: MyString
+  date_of_birth: 2015-10-06 19:33:59
+  passportno: 1
+  passport_issue: 2015-10-06 19:33:59
+  passport_expiry: 2015-10-06 19:33:59
+
+two:
+  name: MyString
+  gender: MyString
+  date_of_birth: 2015-10-06 19:33:59
+  passportno: 1
+  passport_issue: 2015-10-06 19:33:59
+  passport_expiry: 2015-10-06 19:33:59
