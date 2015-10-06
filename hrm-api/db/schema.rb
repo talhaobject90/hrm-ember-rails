@@ -11,17 +11,17 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151006140359) do
+ActiveRecord::Schema.define(version: 20151006143203) do
 
   create_table "employees", force: :cascade do |t|
-    t.string   "name",            limit: 255
-    t.string   "gender",          limit: 255
+    t.string   "name",           limit: 255
+    t.string   "gender",         limit: 255
     t.datetime "date_of_birth"
-    t.integer  "passportno",      limit: 4
-    t.datetime "passport_issue"
-    t.datetime "passport_expiry"
-    t.datetime "created_at",                  null: false
-    t.datetime "updated_at",                  null: false
+    t.integer  "passportno",     limit: 4
+    t.datetime "passportissue"
+    t.datetime "passportexpiry"
+    t.datetime "created_at",                 null: false
+    t.datetime "updated_at",                 null: false
   end
 
 end
