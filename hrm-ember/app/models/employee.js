@@ -3,8 +3,8 @@ import DS from 'ember-data';
 export default DS.Model.extend({
   name: DS.attr('string'),
   gender: DS.attr('string'),
-  dateOfBirth: DS.attr('date'),
+  dateofbirth: DS.attr('date'),
   passportno: DS.attr('string'),
-  passportIssue: DS.attr('date'),
-  passportExpiry: DS.attr('date')
+  passportissue: DS.attr('date'),
+  passportexpiry: DS.attr('date')
 });

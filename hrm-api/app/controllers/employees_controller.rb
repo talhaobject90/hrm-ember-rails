@@ -54,6 +54,6 @@ class EmployeesController < ApplicationController
     end
 
     def employee_params
-      params.require(:employee).permit(:name, :gender, :date_of_birth, :passportno, :passport_issue, :passport_expiry)
+      params.require(:employee).permit(:name, :gender, :dateofbirth, :passportno, :passportissue, :passportexpiry)
     end
 end

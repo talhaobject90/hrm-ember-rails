@@ -1,3 +1,3 @@
 class EmployeeSerializer < ActiveModel::Serializer
-  attributes :id, :name, :gender, :date_of_birth, :passportno, :passport_issue, :passport_expiry
+  attributes :id, :name, :gender, :dateofbirth, :passportno, :passportissue, :passportexpiry
 end
