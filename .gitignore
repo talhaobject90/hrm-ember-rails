@@ -1,0 +1,17 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/hrm-ember/dist
+/hrm-ember/tmp
+
+# dependencies
+/hrm-ember/node_modules
+/hrm-ember/bower_components
+
+# misc
+/hrm-ember/.sass-cache
+/hrm-ember/connect.lock
+/hrm-ember/coverage/*
+/hrm-ember/libpeerconnection.log
+/hrm-embernpm-debug.log
+/hrm-embertestem.log
