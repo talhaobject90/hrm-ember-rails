@@ -6,7 +6,8 @@ var Router = Ember.Router.extend({
 });
 
 Router.map(function() {
-    this.route('employees', { path: '/' });
+  this.route('employees', { path: '/' });
+  this.route('login', {});
 });
 
 export default Router;
