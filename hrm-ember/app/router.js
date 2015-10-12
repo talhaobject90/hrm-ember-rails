@@ -7,7 +7,6 @@ var Router = Ember.Router.extend({
 
 Router.map(function() {
   this.resource('employees' , {});
-
   this.route('login', {});
   this.route('about');
 });

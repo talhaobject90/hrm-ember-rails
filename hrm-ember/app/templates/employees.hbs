@@ -1,2 +1,10 @@
 {{outlet}}
 This is from employees template
+
+<ul>
+{{#each model as |employee|}}
+<li>
+  {{employee.name}}
+</li>
+{{/each}}
+</ul>
